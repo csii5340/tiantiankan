@@ -12,6 +12,7 @@
 
 @property (nonatomic, strong)UIButton * backButton;
 @property (nonatomic, strong)UIButton * bottonButton;
+@property (nonatomic, strong)UIButton * topButton;
 
 @end
 
@@ -56,6 +57,11 @@
 #pragma mark - 事件响应方法
 
 #pragma mark - getter
+
+-(UIButton *)topButton
+{
+    return _topButton;
+}
 
 -(UIButton *)bottonButton
 {
