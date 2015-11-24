@@ -47,7 +47,7 @@
 {
     [super viewWillLayoutSubviews];
     //在这里改变UI元素，只有在页面调整时才会调用
-    NSLog(@"改变UI元素");
+    NSLog(@"UI元素");
 }
 
 #pragma mark - 代理方法
